@@ -1386,6 +1386,13 @@ python-freezegun-pip:
   ubuntu:
     pip:
       packages: [freezegun]
+python-ftdi1:
+  debian: [python-ftdi1]
+  gentoo: [dev-embedded/libftdi]
+  ubuntu: 
+    xenial: [python-ftdi1]
+    bionic: [python-ftdi1]
+    cosmic: [python-ftdi1]
 python-future:
   debian: [python-future]
   fedora: [python-future]
