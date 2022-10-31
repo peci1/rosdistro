@@ -2700,6 +2700,11 @@ python-mako:
 python-mapnik:
   debian: [python-mapnik]
   ubuntu: [python-mapnik]
+python-marisa:
+  debian: [python-marisa]
+  ubuntu:
+    '*': null
+    bionic: [python-marisa]
 python-markdown:
   debian: [python-markdown]
   fedora: [python-markdown]
@@ -7408,6 +7413,11 @@ python3-mapnik:
   fedora: [python3-mapnik]
   nixos: [python3Packages.python-mapnik]
   ubuntu: [python3-mapnik]
+python3-marisa:
+  debian: [python3-marisa]
+  fedora: [python3-marisa]
+  gentoo: [dev-libs/marisa]
+  ubuntu: [python3-marisa]
 python3-markdown:
   debian: [python3-markdown]
   fedora: [python3-markdown]
